@@ -1,0 +1,21 @@
+import { Personajes } from "./personajes";
+
+export class Juego {
+    private personajes: Personajes[];
+  
+    constructor() {
+      this.personajes = [];
+    }
+  
+    agregarPersonaje(personaje: Personajes): void {
+      this.personajes.push(personaje);
+    }
+  
+    iniciarJuego(): void {
+      this.personajes.forEach((personaje) => {
+        personaje.atacar();
+        personaje.defender();
+      });
+    }
+  }
+  
