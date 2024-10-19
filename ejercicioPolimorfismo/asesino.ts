@@ -1,6 +1,6 @@
-import { Personajes } from "./personajes";
+import { Personaje } from "./personajes";
 
-export class Asesino extends Personajes {
+export class Asesino extends Personaje{
     private veneno: string;
   
     constructor(nombre: string, nivel:number, salud: number, fuerza: number, veneno: string) {

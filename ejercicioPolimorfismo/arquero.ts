@@ -1,8 +1,8 @@
-import { Personajes } from "./personajes";
+import { Personaje } from "./personajes";
 import { CajaMagica } from "./cajaMagica";
 
 
-export class Arquero extends Personajes {
+export class Arquero extends Personaje {
       private arco: string;
       private habilidades: string[];
     

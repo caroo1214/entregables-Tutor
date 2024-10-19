@@ -1,13 +1,13 @@
-import { Personajes } from "./personajes";
+import { Personaje } from "./personajes";
 
 export class Juego {
-    private personajes: Personajes[];
+    private personajes: Personaje[];
   
     constructor() {
       this.personajes = [];
     }
   
-    agregarPersonaje(personaje: Personajes): void {
+    agregarPersonaje(personaje: Personaje): void {
       this.personajes.push(personaje);
     }
   

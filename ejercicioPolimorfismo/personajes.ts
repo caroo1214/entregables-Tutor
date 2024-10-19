@@ -37,7 +37,7 @@ public tirarHechizo():void{
 
 }*/
 
-export abstract class Personajes {
+export abstract class Personaje {
     protected nombre: string;
     protected nivel: number;
     protected salud: number=100;

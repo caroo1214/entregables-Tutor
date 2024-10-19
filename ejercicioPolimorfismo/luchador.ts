@@ -1,7 +1,7 @@
-import { Personajes } from "./personajes";
+import { Personaje } from "./personajes";
 
 
-export class Luchador extends Personajes {
+export class Luchador extends Personaje{
     private arma: string;
   
     constructor(nombre: string, nivel:number, salud: number, fuerza: number, arma: string) {

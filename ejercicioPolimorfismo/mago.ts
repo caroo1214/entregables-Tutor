@@ -1,6 +1,6 @@
-import { Personajes } from "./personajes";
+import { Personaje } from "./personajes";
 
-export class Mago extends Personajes {
+export class Mago extends Personaje {
     private hechizo: string;
   
     constructor(nombre: string, nivel:number, salud: number, fuerza:number, hechizo: string) {

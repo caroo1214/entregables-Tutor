@@ -1,6 +1,6 @@
-import { Personajes } from "./personajes";
+import { Personaje } from "./personajes";
 
-export class Curandero extends Personajes {
+export class Curandero extends Personaje {
   private poción: string;
 
   constructor(nombre: string, nivel:number, salud: number, fuerza: number, poción: string) {
